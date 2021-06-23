@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-rows:50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+  
+
+}
+
+.grid-container .grid-items{
+    padding: 10px;
+    border: 1px solid #48e;
+    margin: 5px;
+}
+
+
+.button{
+    margin-left: 24%;
+    border: solid;
+    background-color: #48e;
+    color: aliceblue;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
